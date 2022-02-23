@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Josefin+Sans:wght@300&family=Merriweather:ital,wght@1,300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    background: url("images/htmlbg.jpg");
+    color: #111111;
+    margin: auto;
+    font-size: medium;
+    max-width: 1200px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.h-column-s-r ul {
+    list-style-type: none;
+    width: 75%;
+    padding: 5px 0 5px 0;
+    margin: 0 10px 30px 10px;
+    text-align: center;
+}
+
+.h-column-s-r li {
+    margin-bottom: 10px;
+    list-style-type: none;
+
+}
+
+.h-column-s-r a:hover, .active {
+    color: white;
+}
+
+.h-column-s-r a {
+    color: #ea7628;
+    text-decoration: none;
+}
+
+.h-column-s-r li:hover {
+    background-color: #ea7628;
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+    border-radius: 15px;
+}
+
+.active, .active a {
+    color: white;
+    background-color: #ea7628;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.h-column-m {
+    background: url("images/headerbg.png");
+    border-top-left-radius: 20px;
+    flex: 50%;
+    margin-top: 25px;
+}
+
+.h-title-1 {
+    padding: 50px 0 50px 50px;
+    font-size: 3rem;
+    color: #ea7628;
+    font-family: "Fira Mono", monospace;
+}
+
+.h-title-2 {
+    font-size: 3rem;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.h-column-s-l {
+    flex: 25%;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.h-column-s-r {
+    flex: 25%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+
+
+main {
+    font-family: "Roboto", serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+main hr {
+    max-width: 75%;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-style: oblique;
+    font-family: "Fira Sans", sans-serif;
+}
+
+main h5 {
+    padding: 0;
+    margin: 0;
+}
+
+main a {
+    color: #ea7628;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: orangered;
+}
+
+main .content {
+    margin: 5px 25px 0 0;
+    color: black;
+    text-align: justify;
+}
+
+.column-s-l h1 {
+    font-size: xx-large;
+    margin-right: 5px;
+    margin-top: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.column-s-l .fa-solid {
+    color: #ea7628;
+    padding-left: 5px;
+}
+
+.column-s-l {
+    margin-top: -100px;
+    flex: 25%;
+    text-align: right;
+}
+.column-s-l ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.column-s-l li {
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+    margin-right: 50px;
+}
+
+.column-s-l li a {
+    color: #000;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.column-s-l a:hover {
+    background-color: #555;
+    list-style-type: none;
+    color: white;
+}
+
+.column-m {
+    background-color: #f7f5ef;
+    flex: 50%;
+}
+
+.column-s-r .active {
+    color: white;
+    font-weight: bold;
+    font-family: "Josefin Sans Std", sans-serif;
+    background-color: #ea7628;
+    max-width: 75%;
+    margin: 0 10px 10px 10px;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.column-s-r {
+    flex: 25%;
+    text-align: center;
+    margin: -30px 0 0 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    max-width: 50%;
+    background: url("images/footerbg.jpg");
+}
+
+.content {
+    padding: 25px 0 25px 50px;
+    color: white;
+    font-family: "Fira Black", serif;
+}
+
+footer .fa-solid {
+    color: white;
+}
